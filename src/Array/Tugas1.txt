@@ -1,0 +1,23 @@
+No. 1 :
+Multidimensional array adalah array yang didalamnya terdapat satu/lebih array lain (2 dimensi atau lebih), contohnya adalah matrix, tabel, kubus data, dll
+
+No. 2:
+13 method string java :
+- length() = mengembalikan panjang string
+- charAt(int index) = mengambil karakter pada posisi tertentu
+- substring(int start, end) = mengambil potongan string
+- toUpperCase() = mengubah string menjadi huruf kapital
+- toLowercase() = menguba string menjadi huruf kecil
+- equals(string str) = membandingkan isi string dengan string lain, case sensitive
+- equalsIgnoreCase(string str) = membandingkan isi string dengan string lain, tidak case sensitive
+- trim() = menghapus spasi di awal dan akhr string
+- split(string regex) = memecah string menjadi array berdasarkan pemisah tertentu
+- replace(char oldChar, char newChar) = mengganti karakter lama dengan karakter baru
+- endsWith(string suffix) = mengecek apakah string diakhiri oleh kata tertentu
+- startsWith(string suffix) = mengecek apakah string dimulai oleh kata tertentu
+- contains(Charsequence s) = mengecek apakah string mengandung kata tertentu
+
+No. 3:
+Keuntungan dari immutability dalam java :
+- Aman untuk multithreading, karena objek immutable tidak diubah setelah dibuat. Sehingga beberapa thread dapat mengaksesnya secara bersamaan tanpa perlu khawatir terjadi konfil data
+- Meningkatkan keamanan data, karena nilai objek immutable tidak bisa diubah, data yang sudah diberikan ke suatu class tetap konsisten dan tidak dapat dimodifikasi secara tidak sengaja
